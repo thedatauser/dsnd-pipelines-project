@@ -38,6 +38,18 @@ To start, clone this repo on your local machine
 1. The data used is in the reviews.csv file
 2. The codes are in the dsnd_pipeline.ipynb. Run this file to build the pipelines and train the model
 
+```
+
+├── pipeline
+│   ├── data
+│   │   ├── reviews.csv
+│   ├── dsnd_pipeline.ipynb
+├── LICENSE.txt
+├── README.md
+├── requirements.txt
+│ 
+
+```
 
 ## Credits
 
