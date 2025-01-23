@@ -1,55 +1,45 @@
-# README Template
+# Pipeline Project
 
-Below is a template provided for use when building your README file for students.
+This project involves creating a machine learning model pipeline.
 
-# Project Title
+Data must be appropriately handled in a pipeline to predict whether an item is recommended by a customer based on their review. The data includes numerical, categorical, and text data.
 
-Project description goes here.
+## The Data
+The dataset has been anonymized and cleaned of missing values.
+
+There are 8 features for to use to predict whether a customer recommends or does not recommend a product. The Recommended IND column gives whether a customer recommends the product where 1 is recommended and a 0 is not recommended. This is your model's target/
+
+The features can be summarized as the following:
+
+Clothing ID: Integer Categorical variable that refers to the specific piece being reviewed.
+Age: Positive Integer variable of the reviewers age.
+Title: String variable for the title of the review.
+Review Text: String variable for the review body.
+Positive Feedback Count: Positive Integer documenting the number of other customers who found this review positive.
+Division Name: Categorical name of the product high level division.
+Department Name: Categorical name of the product department name.
+Class Name: Categorical name of the product class name.
+The target:
+
+Recommended IND: Binary variable stating where the customer recommends the product where 1 is recommended, 0 is not recommended.
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+To start, clone this repo on your local machine
 
 ### Dependencies
 
-```
-Examples here
-```
+1. All libraries required are in the requirements.txt file
+2. Create a virtual environment and install all libraries
 
-### Installation
 
-Step by step explanation of how to get a dev environment running.
+## File Structure
 
-List out the steps
+1. The data used is in the reviews.csv file
+2. The codes are in the dsnd_pipeline.ipynb. Run this file to build the pipelines and train the model
 
-```
-Give an example here
-```
 
-## Testing
+## Credits
 
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
-
-[License](LICENSE.txt)
+1. Udacity
+2. Author: Kikelomo Obayemi
